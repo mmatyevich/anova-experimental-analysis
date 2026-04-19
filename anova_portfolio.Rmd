@@ -57,7 +57,10 @@ The outcome is `Qpos` — the count of Q fever positive animals per 1,000 head o
 ### Exploratory analysis
 
 ```{r qfever-data}
-# Reproduce the Q fever dataset based on assignment output
+# Note: The original dataset used in this analysis was not available.
+# To demonstrate the analytical approach, a synthetic dataset was generated
+# The simulated data preserves the key patterns required for the analysis,
+# but does not represent real observations.
 set.seed(42)
 qfever <- data.frame(
   zone = factor(rep(c("Zone1", "Zone2", "Zone3"), each = 15)),
